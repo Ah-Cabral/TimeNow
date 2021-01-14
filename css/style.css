@@ -36,7 +36,7 @@ body{
 
 /*Configurando div referente ao relógio*/
 #clock{
-    background-color: #ffffff;
+    background: #ffffff;
     width: 60%;
     height: 500px;
     /*O display flex para organizar os elementos ao centro*/
@@ -67,7 +67,7 @@ body{
     width: 35vw;
     height: 150px;
     border-radius: 30px;
-    background-color: #197BE8;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
     color: #ffffff;
     font-size: 7vw;
     font-weight: 600;
@@ -76,9 +76,11 @@ body{
     justify-content: center;
 }
 
+/*Configurando footer da div do relógio*/
 .footer-clock{
+    display: flex;
+    align-items: center;
     position: absolute;
-    left: 40%;
     bottom: 1.5em;
     color: #197BE8;
     font-weight: 500;
