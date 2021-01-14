@@ -13,6 +13,7 @@ async function carregar(){
         let time1 = window.document.getElementById('hour')
         let time2 = window.document.getElementById('minute')
         let time3 = window.document.getElementById('sec')
+        let logo = window.document.getElementById('logo-header')
         data = new Date()
         let hora = data.getHours()
         let minuto = data.getMinutes()
@@ -38,10 +39,12 @@ async function carregar(){
         await sleep(1000)
 
         if(hora >= 12){
-            changeColor("linear-gradient(to right, #f12711, #f5af19)", "#f12711");
+            changeColor("linear-gradient(to right, #f16b11, #f5af19)", "#f16b11");
+            logo.src = 'images/logo-tarde.svg'
         }
         if(hora >= 17){
             changeColor("linear-gradient(to right, #0f0c29, #302b63, #24243e)","#302b63")
+            logo.src = 'images/logo-noite.svg'
         }
 
         

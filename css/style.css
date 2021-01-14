@@ -55,7 +55,7 @@ body{
 /*Configurando a logo*/
 .logo-header{
     width: 40vw;
-    height: 70px;
+    height: 60px;
     position: absolute;
     top: 50%; /* posiciona na metade da tela */
     left: 16%;
