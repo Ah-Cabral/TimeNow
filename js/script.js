@@ -23,11 +23,13 @@ async function carregar(){
         }else{
             time1.innerHTML = hora
         }
+
         if(minuto < 10){
             time2.innerHTML = `0${minuto}`
         }else{
             time2.innerHTML = minuto
         }
+
         if(segundo < 10){
             time3.innerHTML = `0${segundo}`
         }else{
@@ -35,7 +37,13 @@ async function carregar(){
         }
         await sleep(1000)
 
-        changeColor("linear-gradient(to right, #f12711, #f5af19)", "#f12711");
+        if(hora >= 12){
+            changeColor("linear-gradient(to right, #f12711, #f5af19)", "#f12711");
+        }
+        if(hora >= 17){
+            changeColor("linear-gradient(to right, #0f0c29, #302b63, #24243e)","#302b63")
+        }
+
         
     }
 };
