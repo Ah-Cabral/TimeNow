@@ -6,7 +6,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Ah-Cabral/TimeNow?style=plastic)
 
 <p align="center">
-  <img width="460" height="300" src="images/to_readme/readme.gif"
+  <img width="500" height="300" src="images/to_readme/readme.gif"
 </p>
 
 ### 🔗 Link: [Clique e Acesse](https://ah-cabral.github.io/TimeNow/)
